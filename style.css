@@ -1,0 +1,172 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  
+h1{
+    text-align: center;
+    margin-top: 1rem;
+  
+    color: rgb(17, 7, 7);
+    outline: black;
+    font-size: 3rem;
+    
+}
+.container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 2rem;
+    margin-left: 13rem;
+    padding: 3rem 2rem;
+    border: 1px solid rgb(32, 32, 24);
+    border-radius: 20px;
+    height: 30rem;
+    width: 70%;
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 4rem;
+   
+    padding-left: 14rem;
+
+}
+
+input{
+    width: 12rem;
+    height: 3.5rem;
+    margin:1rem ;
+    color: rgb(7, 6, 1);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+ label{
+    margin-top: 1rem;
+    padding-left: 10rem;
+  
+    color: #29044c;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+p{
+   font-size: 2rem;
+    background-color: rgb(219, 236, 237);
+    border-radius: 3rem;
+    text-align: center;
+    color: rgb(21, 7, 68);
+    height: auto;
+    width: 25rem;
+   position: relative;
+   left: 40%;
+   top: 25%;
+}
+
+
+button{
+    width: 10rem;
+    margin-top: 1rem;
+    height: 3.3rem;
+    border: none;
+    border-radius: 3rem;
+    background-color: rgb(54, 107, 182);
+    color: white;
+    font-weight: 700;
+  
+}
+button:hover{
+    background-color: rgb(240, 225, 159);
+    color: black;
+    border: 2px solid cadetblue;
+    
+}
+@media(max-width:760px){
+   
+  
+h1{
+  
+    margin-top: 0.3rem;
+    color: rgb(17, 7, 7);
+    outline: black;
+    font-size: 1.5rem;
+    margin-left: 4rem;
+    
+}
+.container{
+   height: 100vh;
+   width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 0.2rem;
+    padding:0 0.5rem;
+    padding-top: 0.3rem;
+}
+.btn{
+    /* display: flex;
+    flex-wrap: nowrap; */
+    text-align: center;
+    gap: 4rem;
+   
+    padding-left: 12rem;
+
+}
+input{
+    width: 5rem;
+    height: 1rem;
+    margin:0.5rem;
+    color: rgb(7, 6, 1);
+    text-align: center;
+    font-size: .5rem;
+    
+    
+}
+ label{
+    margin-top: 0.5rem;
+    font-family: initial;
+    color: #29044c;
+    font-size: .5rem;
+    
+}
+p{
+   font-size: 1rem;
+    background-color: rgb(219, 236, 237);
+    border-radius: 0.5rem;
+    text-align: center;
+    color: rgb(21, 7, 68);
+
+    width: 7rem;
+    position: relative;
+    top: 7%;
+
+   
+}
+
+
+button{
+    width: 3rem;
+    margin-top: 0.2rem;
+    height: 2rem;
+    margin:0.3rem auto;
+    border: none;
+    border-radius:0.3rem;
+    background-color: rgb(54, 107, 182);
+    color: white;
+   
+  
+}
+button:hover{
+    background-color: rgb(240, 225, 159);
+    color: black;
+    border: 2px solid cadetblue;
+    
+}
+}
